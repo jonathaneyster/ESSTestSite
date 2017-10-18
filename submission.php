@@ -1,7 +1,7 @@
 <?php
 
-$connectstr_dbhost = '';
-$connectstr_dbname = '';
+$connectstr_dbhost = '127.0.0.1';
+$connectstr_dbname = 'students(esstestsite)';
 $connectstr_dbusername = 'root';
 $connectstr_dbpassword = 'Jonathan5';
 
@@ -30,22 +30,22 @@ echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
 
 mysqli_close($link);
 
-define('DB_NAME', 'Students(ESSTestSite)');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'Jonathan5');
-define('DB_HOST', 'localhost');
+// define('DB_NAME', 'Students(ESSTestSite)');
+// define('DB_USER', 'root');
+// define('DB_PASSWORD', 'Jonathan5');
+// define('DB_HOST', 'localhost');
 
-$link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
+// $link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
 
-if(!$link){
-	die('Could not connect: ' . mysql_error());
-}
+// if(!$link){
+// 	die('Could not connect: ' . mysql_error());
+// }
 
-$db_selected = mysql_select_db(DB_NAME, $link);
+// $db_selected = mysql_select_db(DB_NAME, $link);
 
-if(!$db_selected){
-	die('Could not use ' . DB_NAME . ': ' . mysql_error());
-}
+// if(!$db_selected){
+// 	die('Could not use ' . DB_NAME . ': ' . mysql_error());
+// }
 
 $value_firstname = $_POST['firstname'];
 $value_lastname = $_POST['lastname'];
