@@ -64,7 +64,7 @@ $value_targetsalary = $_POST['targetsalary'];
 $value_benefits = $_POST['benefits'];
 $value_relocate = $_POST['relocate'];
 
-$sql = "INSERT INTO Students (firstname, lastname, resume, disc, trimetrixcoaching, trimetrixgap, linkedin, github, age, track, phonenumber, employup, dateofemployment, targetsalary, benefits, relocate) VALUES ('$value_firstname', '$value_lastname', '$value_resume', '$value_disc', '$value_trimetrixcoaching', '$value_trimetrixgap', '$value_linkedin', '$value_github', '$value_age', '$value_track', '$value_phonenumber', '$value_employup', '$value_dateofemployment', '$value_targetsalary', '$value_benefits', '$value_relocate')";
+$sql = "INSERT INTO students (firstname, lastname, resume, disc, trimetrixcoaching, trimetrixgap, linkedin, github, age, track, phonenumber, employup, dateofemployment, targetsalary, benefits, relocate) VALUES ('$value_firstname', '$value_lastname', '$value_resume', '$value_disc', '$value_trimetrixcoaching', '$value_trimetrixgap', '$value_linkedin', '$value_github', '$value_age', '$value_track', '$value_phonenumber', '$value_employup', '$value_dateofemployment', '$value_targetsalary', '$value_benefits', '$value_relocate')";
 
 if (!mysql_query($sql)){
 	die('Error: ' . mysql_error());
