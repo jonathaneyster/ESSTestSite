@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+
+.nav-color{	
+	font-family: Belleza;
+	font-size: 24px;
+	color: #fff!important;
+	padding-top: 5px;
+}
+button{
+	background-color: #d9514e;
+	color: #fff;
+	font-family: Belleza;
+}
+.container{
+	width:600px;
+	clear: both;
+}
+.container input
+{
+	width: 100%;
+	clear: both;
+}
+.employup{
+	list-style-type: none;
+}
