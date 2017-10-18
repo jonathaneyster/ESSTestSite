@@ -1,6 +1,6 @@
 <?php
 
-$connectstr_dbhost = '';
+$connectstr_dbhost = '127.0.0.1';
 $connectstr_dbname = '';
 $connectstr_dbusername = 'root';
 $connectstr_dbpassword = 'Jonathan5';
