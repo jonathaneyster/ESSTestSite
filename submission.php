@@ -2,8 +2,8 @@
 
 $connectstr_dbhost = '';
 $connectstr_dbname = '';
-$connectstr_dbusername = 'root';
-$connectstr_dbpassword = 'Jonathan5';
+$connectstr_dbusername = '';
+$connectstr_dbpassword = '';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
