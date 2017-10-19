@@ -30,7 +30,7 @@
 
 // mysqli_close($link);
 
-define('DB_NAME', 'elevenfifty-mysqldbserver');
+define('DB_NAME', 'students');
 define('DB_USER', 'mysqldbuser@elevenfifty-mysqldbserver');
 define('DB_PASSWORD', 'Eleven50!@1');
 define('DB_HOST', 'elevenfifty-mysqldbserver.mysql.database.azure.com');
