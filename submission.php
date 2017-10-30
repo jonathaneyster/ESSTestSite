@@ -3,13 +3,13 @@
 $link = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
 
 if(!$link){
-	die('Could not connect: ' . mysql_error());
+	die('Could not connect: ' . mysqli_error());
 }
 
 $db_selected = mysql_select_db(DB_NAME, $link);
 
 if(!$db_selected){
-	die('Could not use ' . DB_NAME . ': ' . mysql_error());
+	die('Could not use ' . DB_NAME . ': ' . mysqli_error());
 }
 
 $value_firstname = $_POST['firstname'];
