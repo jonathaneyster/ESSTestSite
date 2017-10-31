@@ -1,5 +1,10 @@
 <?php
 
+define('DB_NAME', 'students');
+define('DB_USER', 'mysqldbuser@elevenfifty-mysqldbserver');
+define('DB_PASSWORD', 'Eleven50!@1');
+define('DB_HOST', 'elevenfifty-mysqldbserver.mysql.database.azure.com');
+
 $link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
 
 if(!$link){
